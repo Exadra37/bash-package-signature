@@ -16,11 +16,7 @@ set -e
 # Sourcing Dependencies
 #################################################################################################################################################################
 
-    source "${script_path}/../vendor/exadra37-bash/package-manager/src/sourcing/package-manager-trait.source.sh"
-
-    vendor_name="exadra37-bash"
-
-    Auto_Source_Dependency "${vendor_name}" "pretty-print" "0.1.0" "sourcing/pretty-print-trait.source.sh"
+    source "${script_path}/../vendor/exadra37-bash/pretty-print/src/sourcing/pretty-print-trait.source.sh"
 
 
 #################################################################################################################################################################
