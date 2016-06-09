@@ -32,11 +32,11 @@ set -e
         local docs="$5"
 
         Print_Line_Break
-        Print_Bold_Label_With_Text "Package: " "$package"
-        Print_Bold_Label_With_Text "Version: " "$version"
-        Print_Bold_Label_With_Text "License: " "$license"
-        Print_Bold_Label_With_Text "Code Source: " "$code_source"
-        Print_Bold_Label_With_Text "Docs: " "$docs"
+        Print_Bold_Label_With_Text "Package: " "$package" "yellow"
+        Print_Bold_Label_With_Text "Version: " "$version" "yellow"
+        Print_Bold_Label_With_Text "License: " "$license" "yellow"
+        Print_Bold_Label_With_Text "Code Source: " "$code_source" "yellow"
+        Print_Bold_Label_With_Text "Docs: " "$docs" "yellow"
 
         Print_Author
         Print_Author_Links
@@ -50,10 +50,10 @@ set -e
 
     function Print_Author_Links
     {
-        Print_Title ">>> Follow me in:"
-        Print_Bold_Label_With_Text "Github: " "https://github.com/Exadra37"
-        Print_Bold_Label_With_Text "Gitlab: " "https://gitlab.com/u/exadra37"
-        Print_Bold_Label_With_Text "Linkedin: " "https://uk.linkedin.com/in/exadra37"
-        Print_Bold_Label_With_Text "Twitter: " "https://twitter.com/Exadra37"
+        Print_Bold_Title ">>> Follow me in:"
+        Print_Bold_Label_With_Text "Github: " "https://github.com/Exadra37" "yellow"
+        Print_Bold_Label_With_Text "Gitlab: " "https://gitlab.com/u/exadra37" "yellow"
+        Print_Bold_Label_With_Text "Linkedin: " "https://uk.linkedin.com/in/exadra37" "yellow"
+        Print_Bold_Label_With_Text "Twitter: " "https://twitter.com/Exadra37" "yellow"
         Print_Line_Break
     }
